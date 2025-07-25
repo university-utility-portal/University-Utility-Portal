@@ -56,7 +56,7 @@ const studentSchema = new mongoose.Schema(
 			type: String,
 			default: undefined,
 		},
-		emailVerificationTokenExpirey: {
+		emailVerificationTokenExpiry: {
 			type: Date,
 			default: undefined,
 		},
